@@ -46,18 +46,31 @@ minecraftのレコードをリピートするデータパックです。
 --------------------
 
 1.11
+
 2.13
+
 3.bloc
+
 4.cat
+
 5.chirp
+
 6.far
+
 7.mall
+
 8.mellohi
+
 9.otherside
+
 10.pigstep
+
 11.stal
+
 12.stard
+
 13.wait
+
 14.ward
 
 注意事項
