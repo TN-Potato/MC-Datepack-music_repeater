@@ -9,9 +9,9 @@ minecraftのレコードをリピートするデータパックです。
 
 1.ダウンロードしたファイルを展開
 
-2.中に入っているmusic_repeater_ver-○.○専用リーソースパック.zipを適用
+2.中に入っているmusic_repeater_ver-1.1.3専用リーソースパック.zipを適用
 
-3.中に入っているmusic_repeater_ver-○.○.○.zipをこのデータパックを使いたいワールドのdatapacksに入れる
+3.中に入っているmusic_repeater_ver-1.1.3.zipをこのデータパックを使いたいワールドのdatapacksに入れる
 
 4.ワールドをminecraftで読み込む
 
