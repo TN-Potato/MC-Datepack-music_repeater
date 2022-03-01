@@ -1,0 +1,104 @@
+{
+    "music.repeat_11": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/11",
+                "weight": 1
+             } 
+         ]
+    }
+    ,"music.repeat_13": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/13",
+                "weight": 1
+             } 
+         ]
+    }
+    ,"music.repeat_block": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/block",
+                "weight": 1
+             } 
+         ]
+    }
+    ,"music.repeat_cat": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/cat",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_chirp": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/chirp",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_far": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/far",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_mall": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/mall",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_mellohi": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/mellohi",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_otherside": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/otherside",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_pigstep": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/pigstep",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_stal": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/stal",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_strad": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/strad",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_wait": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/wait",
+                "weight": 1
+             } 
+         ]
+    }    ,"music.repeat_ward": {
+        "sounds":[
+            {
+                "name": "custom/repeat/disc/ward",
+                "weight": 1
+             } 
+         ]
+    }
+}
