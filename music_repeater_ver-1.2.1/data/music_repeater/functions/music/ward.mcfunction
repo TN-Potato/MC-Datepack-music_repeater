@@ -20,9 +20,8 @@
 #スコアボードを0にする
     scoreboard players set @s music 0
 #字幕表示
-    title @s[tag=!subtitle_off,tag=!repeat_display_on] actionbar {"text":"ward","color":"green"}
-    title @s[tag=!subtitle_off,tag=repeat_display_on] title {"text":""}
-    title @s[tag=!subtitle_off,tag=repeat_display_on] subtitle {"text":"ward","color":"green"}
+    title @s[tag=!subtitle_off] title {"text":""}
+    title @s[tag=!subtitle_off] subtitle {"text":"ward","color":"green"}
 #音を止める
     stopsound @s voice
 #再生
