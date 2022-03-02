@@ -13,7 +13,7 @@
     tellraw @a ["",{"text":"                    ","strikethrough": true}]
 #スコアボード作成
     scoreboard objectives add repeat dummy "残り再生回数(-1で無制限)"
-    scoreboard objectives add music dummy
+    scoreboard objectives add music dummy "音楽再生時間"
 #tag除去
     tag @s remove 11
     tag @s remove 13
