@@ -67,7 +67,7 @@ minecraftのレコードをリピートするデータパックです。
 
 11.stal
 
-12.stard
+12.strad
 
 13.wait
 

@@ -26,7 +26,7 @@
     tag @a remove otherside
     tag @a remove pigstep
     tag @a remove stal
-    tag @a remove stard
+    tag @a remove strad
     tag @a remove wait
     tag @a remove ward
 #スコアボードリセット

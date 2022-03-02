@@ -10,7 +10,7 @@
     tag @s remove otherside
     tag @s remove pigstep
     tag @s remove stal
-    tag @s remove stard
+    tag @s remove strad
     tag @s remove wait
     tag @s remove ward
 #タグ付与
