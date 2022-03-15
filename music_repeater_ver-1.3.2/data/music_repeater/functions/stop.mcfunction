@@ -17,5 +17,6 @@
     tag @s remove stard
     tag @s remove wait
     tag @s remove ward
+    tag @s remove favorite_random_play
 #効果音
     playsound minecraft:entity.arrow.hit_player voice @s ~ ~ ~ 1.0 1.0 1.0
