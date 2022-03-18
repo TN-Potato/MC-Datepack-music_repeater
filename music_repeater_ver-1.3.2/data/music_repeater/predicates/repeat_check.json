@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+      {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+              "repeat": {
+                  "min": 1
+              }
+          }
+      },
+      {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+              "repeat": {
+                  "max": -1
+              }
+          }
+      }
+  ]
+}
