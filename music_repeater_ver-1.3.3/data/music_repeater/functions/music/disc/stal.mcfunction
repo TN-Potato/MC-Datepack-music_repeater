@@ -10,20 +10,20 @@
     tag @s remove otherside
     tag @s remove pigstep
     tag @s remove stal
-    tag @s remove stard
+    tag @s remove strad
     tag @s remove wait
     tag @s remove ward
 #タグ付与
-    tag @s add ward
+    tag @s add stal
 #残り再生回数を減らす
     scoreboard players remove @s repeat 1
 #スコアボードを0にする
     scoreboard players set @s music 0
 #字幕表示
-    title @s[tag=!subtitle_off,tag=!repeat_display_on] actionbar {"text":"ward","color":"green"}
+    title @s[tag=!subtitle_off,tag=!repeat_display_on] actionbar {"text":"stal","color":"green"}
     title @s[tag=!subtitle_off,tag=repeat_display_on] title {"text":""}
-    title @s[tag=!subtitle_off,tag=repeat_display_on] subtitle {"text":"ward","color":"green"}
+    title @s[tag=!subtitle_off,tag=repeat_display_on] subtitle {"text":"stal","color":"green"}
 #音を止める
     stopsound @s voice
 #再生
-    playsound minecraft:music.repeat_ward voice @s ~ ~ ~ 1.0 1.0 1.0
+    playsound minecraft:music.repeat_stal voice @s ~ ~ ~ 1.0 1.0 1.0
