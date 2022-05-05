@@ -27,7 +27,7 @@
   #cat
     execute as @a[tag=cat,tag=!favorite_random_play,scores={music=3700..,repeat=1..}] run function music_repeater:music/disc/cat
     execute as @a[tag=cat,tag=!favorite_random_play,scores={music=3700..,repeat=..-1}] run function music_repeater:music/disc/cat
-    tag @a[tag=cat,scores={music=3701..}] remove cat
+    tag @a[tag=cat,scores={music=3700..}] remove cat
     execute as @a[tag=cat,tag=favorite_random_play,scores={music=3700..,repeat=1..}] run function music_repeater:music/favorite_random
     execute as @a[tag=cat,tag=favorite_random_play,scores={music=3700..,repeat=..-1}] run function music_repeater:music/favorite_random
   #chirp
