@@ -4,11 +4,19 @@
  #枠をつける
     tellraw @a ["",{"text":"                                        ","strikethrough": true,"color":"gold"}]
  #バージョン情報表示
-    tellraw @s ["",{"text":"music_repeater_ver-1.3.2","color":"gold"}]
+<<<<<<<< HEAD:music_repeater_ver-1.3.5/data/music_repeater/functions/list_music.mcfunction
+    tellraw @s ["",{"text":"music_repeater_ver-1.3.5","color":"gold"}]
+========
+    tellraw @s ["",{"text":"music_repeater_ver-1.3.3","color":"gold"}]
+>>>>>>>> parent of 87d3b03 (ver.1.3.4):music_repeater_ver-1.3.3/data/music_repeater/functions/list_music.mcfunction
  #設定表示
     tellraw @s ["","<",{"text":"設定を開く","color":"green","clickEvent":{"action":"run_command","value":"/function music_repeater:setting"}},">"]
  #ストップ表示
     tellraw @s ["","<",{"text":"ストップ","color":"green","clickEvent":{"action":"run_command","value":"/function music_repeater:stop"}},">"]
+ #すべてお気に入りに追加ボタン表示
+    tellraw @s ["","<",{"text":"すべてお気に入りに追加","color":"green","clickEvent":{"action":"run_command","value":"/function music_repeater:favorite/add_all"}},">"]
+ #すべてお気に入りから削除ボタン表示
+    tellraw @s ["","<",{"text":"すべてお気に入りから削除","color":"green","clickEvent":{"action":"run_command","value":"/function music_repeater:favorite/remove_all"}},">"]
  #枠をつける
     tellraw @a ["",{"text":"                                        ","strikethrough": true,"color":"gold"}]
  #ジャンルを表示

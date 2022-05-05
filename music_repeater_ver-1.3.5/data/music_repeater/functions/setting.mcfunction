@@ -4,7 +4,11 @@
  #枠をつける
     tellraw @a ["",{"text":"                                        ","strikethrough": true,"color":"gold"}]
   #バージョン情報表示
-    tellraw @s ["",{"text":"music_repeater_ver-1.3.2","color":"gold"}]
+<<<<<<<< HEAD:music_repeater_ver-1.3.5/data/music_repeater/functions/setting.mcfunction
+    tellraw @s ["",{"text":"music_repeater_ver-1.3.5","color":"gold"}]
+========
+    tellraw @s ["",{"text":"music_repeater_ver-1.3.3","color":"gold"}]
+>>>>>>>> parent of 87d3b03 (ver.1.3.4):music_repeater_ver-1.3.3/data/music_repeater/functions/setting.mcfunction
   #曲を選ぶ表示
     tellraw @s ["","<",{"text":"曲を選ぶ","color":"green","clickEvent":{"action":"run_command","value":"/function music_repeater:list_music"}},">"]
   #ストップ表示

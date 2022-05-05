@@ -27,7 +27,7 @@
   #cat
     execute as @a[tag=cat,tag=!favorite_random_play,scores={music=3700..,repeat=1..}] run function music_repeater:music/disc/cat
     execute as @a[tag=cat,tag=!favorite_random_play,scores={music=3700..,repeat=..-1}] run function music_repeater:music/disc/cat
-    tag @a[tag=cat,scores={music=3700..}] remove cat
+    tag @a[tag=cat,scores={music=3701..}] remove cat
     execute as @a[tag=cat,tag=favorite_random_play,scores={music=3700..,repeat=1..}] run function music_repeater:music/favorite_random
     execute as @a[tag=cat,tag=favorite_random_play,scores={music=3700..,repeat=..-1}] run function music_repeater:music/favorite_random
   #chirp
@@ -79,11 +79,11 @@
     execute as @a[tag=strad,tag=favorite_random_play,scores={music=3760..,repeat=1..}] run function music_repeater:music/favorite_random
     execute as @a[tag=strad,tag=favorite_random_play,scores={music=3760..,repeat=..-1}] run function music_repeater:music/favorite_random
   #wait
-    execute as @a[tag=wait,tag=!favorite_random_play,scores={music=4760..,repeat=1..}] run function music_repeater:music/disc/wait
-    execute as @a[tag=wait,tag=!favorite_random_play,scores={music=4760..,repeat=..-1}] run function music_repeater:music/disc/wait
-    tag @a[tag=wait,scores={music=4761..}] remove wait
-    execute as @a[tag=wait,tag=favorite_random_play,scores={music=4760..,repeat=1..}] run function music_repeater:music/favorite_random
-    execute as @a[tag=wait,tag=favorite_random_play,scores={music=4760..,repeat=..-1}] run function music_repeater:music/favorite_random
+    execute as @a[tag=wait,tag=!favorite_random_play,scores={music=4620..,repeat=1..}] run function music_repeater:music/disc/wait
+    execute as @a[tag=wait,tag=!favorite_random_play,scores={music=4620..,repeat=..-1}] run function music_repeater:music/disc/wait
+    tag @a[tag=wait,scores={music=4621..}] remove wait
+    execute as @a[tag=wait,tag=favorite_random_play,scores={music=4620..,repeat=1..}] run function music_repeater:music/favorite_random
+    execute as @a[tag=wait,tag=favorite_random_play,scores={music=4620..,repeat=..-1}] run function music_repeater:music/favorite_random
   #ward
     execute as @a[tag=ward,tag=!favorite_random_play,scores={music=5020..,repeat=1..}] run function music_repeater:music/disc/ward
     execute as @a[tag=ward,tag=!favorite_random_play,scores={music=5020..,repeat=..-1}] run function music_repeater:music/disc/ward
