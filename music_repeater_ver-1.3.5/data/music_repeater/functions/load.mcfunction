@@ -1,7 +1,7 @@
 #枠をつける
     tellraw @a ["",{"text":"                    ","strikethrough": true}]
 #インストールメッセージ
-    tellraw @a ["","Thank you for downloading!!  ",{"text":"music_repeater_ver-1.3.3","color":"blue"}," は正常にインストールされました。"]
+    tellraw @a ["","Thank you for downloading!!  ",{"text":"music_repeater_ver-1.3.5","color":"blue"}," は正常にインストールされました。"]
     tellraw @a ["","made for [",{"text":"kakeruSHI","color":"red","clickEvent":{"action":"open_url","value":"https://twitter.com/kakeruSHI_ch"}},"] by [",{"text":"TN_Potato","color":"green","clickEvent":{"action":"open_url","value":"https://twitter.com/TN_Potato"}},"]"]
     tellraw @a ["","細かい使い方や、注意点などはreadmeをご確認ください。"]
     tellraw @a ["","[",{"text":"※","color":"yellow"},{"text":"注意","color":"red"},{"text":"※","color":"yellow"},"]"]
