@@ -51,7 +51,7 @@
   #mellohi
     execute as @a[tag=mellohi,tag=!favorite_random_play,scores={music=1920..,repeat=1..}] run function music_repeater:music/disc/mellohi
     execute as @a[tag=mellohi,tag=!favorite_random_play,scores={music=1920..,repeat=..-1}] run function music_repeater:music/disc/mellohi
-    tag @a[tag=mellohi,scores={music=1920..}] remove mellohi
+    tag @a[tag=mellohi,scores={music=1921..}] remove mellohi
     execute as @a[tag=mellohi,tag=favorite_random_play,scores={music=1920..,repeat=1..}] run function music_repeater:music/favorite_random
     execute as @a[tag=mellohi,tag=favorite_random_play,scores={music=1920..,repeat=..-1}] run function music_repeater:music/favorite_random
   #otherside
